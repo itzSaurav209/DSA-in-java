@@ -14,12 +14,16 @@ class rotationarr
         
     }
     static void rotateArr(int arr[], int d) {
-        // code here
+        // this is for left rotation
         
         int n=arr.length;
         
-        reverse(arr,0,d-1);
+        /*reverse(arr,0,d-1);
         reverse(arr,d,n-1);
+        reverse(arr,0,n-1);*/
+        // this is for right rotation 
+        reverse(arr,0,n-d-1);
+        reverse(arr,n-d,n-1);
         reverse(arr,0,n-1);
     }
     public static void main(String[] args)
