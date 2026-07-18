@@ -1,3 +1,4 @@
+//we have to merge two sorted array in another array
 class mergetwosortedarr {
     public static void merge(int[] a, int[] b,int[] c){
         int i=0,k=0,j=0;
