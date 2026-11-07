@@ -3,7 +3,7 @@ class max{
     public static void main(String[] args){
         int [] arr=new int[5];
         Scanner sc= new Scanner(System.in);
-        System.err.println("enter the five elements");
+        System.out.println("enter the five elements");
         for(int i=0;i<arr.length;i++)
         {
             arr[i]=sc.nextInt();
@@ -13,6 +13,6 @@ class max{
             if(arr[i]>max)
             max=arr[i];
         }
-        System.err.println(max);
+        System.out.println(max);
     }
 }

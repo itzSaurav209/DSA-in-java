@@ -17,13 +17,12 @@ class twosum
         {
             for(int j=i+1;j<arr.length;j++){
                 if((arr[i]+arr[j])==target){
-                flag=true;
+                
                 System.out.println("elements are in index "+i+" "+j);
                 break;
                 }
             }
-            if (flag)
-        break;
+            
         }
         
     }

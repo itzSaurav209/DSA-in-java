@@ -33,6 +33,10 @@ class reversearray
             arr[n-1-i]=temp;
             
          }
+         for(int ele:arr)
+        {
+            System.out.print(ele+" ");
+        }
         
     }
 }
